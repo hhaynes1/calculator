@@ -1,0 +1,30 @@
+body {
+    display: grid;
+}
+
+h1 {
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 10px 300px;
+}
+
+#result {
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    width: 140px;
+    height: 20px;
+}
+
+#button-grid {
+    display: grid;
+    text-align: center;
+    gap: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 10px 300px;
+}
+
+.buttons {
+    padding: 5px 10px;
+}
