@@ -12,40 +12,44 @@
     <h1>Calculator</h1>
     <div id="button-grid">
         <div class="row-5">
-            <label for="result" id="result">1234</label>
+            <label for="result" id="result">0</label>
         </div>
 
         <div class="row-4">
-            <button id="btn7" class="buttons">7</button>
-            <button id="btn8" class="buttons">8</button>
-            <button id="btn9" class="buttons">9</button>
-            <button id="divide" class="buttons">/</button>
+            <button id="btn7" class="num-buttons">7</button>
+            <button id="btn8" class="num-buttons">8</button>
+            <button id="btn9" class="num-buttons">9</button>
+            <button id="divide" class="func-buttons">/</button>
         </div>
 
         <div class="row-3">
-            <button id="btn4" class="buttons">4</button>
-            <button id="btn5" class="buttons">5</button>
-            <button id="btn6" class="buttons">6</button>
-            <button id="multiply" class="buttons">x</button>
+            <button id="btn4" class="num-buttons">4</button>
+            <button id="btn5" class="num-buttons">5</button>
+            <button id="btn6" class="num-buttons">6</button>
+            <button id="multiply" class="func-buttons">x</button>
         </div>
 
         <div class="row-2">
-            <button id="btn1" class="buttons">1</button>
-            <button id="btn2" class="buttons">2</button>
-            <button id="btn3" class="buttons">3</button>
-            <button id="subtract" class="buttons">-</button>
+            <button id="btn1" class="num-buttons">1</button>
+            <button id="btn2" class="num-buttons">2</button>
+            <button id="btn3" class="num-buttons">3</button>
+            <button id="subtract" class="func-buttons">-</button>
         </div>
 
         <div class="row-1">
-            <button id="btn0" class="buttons">0</button>
+            <button id="btn0" class="num-buttons">0</button>
             <button id="period" class="buttons">.</button>
             <button id="equals" class="buttons">=</button>
-            <button id="plus" class="buttons">+</button>
+            <button id="add" class="func-buttons">+</button>
         </div>
 
         <div class="row-0">
             <button id="clear">Clear</button>
         </div>
+    </div>
+
+    <div>
+        <p id="history"></p>
     </div>
 
     <script src="script.js"></script>
